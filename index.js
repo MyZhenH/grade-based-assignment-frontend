@@ -114,7 +114,7 @@ async function searchCocktail(inputValue){
       const createDiv = document.createElement("div");
       createDiv.classList.add("cocktail-drink");
       createDiv.innerHTML=`
-      <h1 class="cocktailName" id="${drink.idDrink}">${drink.strDrink}</h1> 
+      <h2 class="cocktailName" id="${drink.idDrink}">${drink.strDrink}</h2> 
       <img src=${drink.strDrinkThumb} id=${drink.idDrink} alt="${drink.strDrink}"</img>
       <button class="seeMore-Btn" id="${drink.idDrink}">See more</button>`
       drinkContainer.appendChild(createDiv);

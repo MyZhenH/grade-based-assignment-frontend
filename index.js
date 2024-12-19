@@ -41,6 +41,7 @@ function handleOnLinkClick(id) {
     homePage.classList.remove("open");
     detailsPage.classList.remove("open");
     searchPage.classList.add("open");
+    drinkContainer.innerHTML="";
   }  
 }
 
